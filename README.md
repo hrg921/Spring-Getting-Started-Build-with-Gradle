@@ -158,3 +158,31 @@ Check out the service.
 $ curl localhost:8080
 Greetings from Spring Boot!
 ```
+
+---
+이 쯤에서 귀찮아서 IntelliJ IDEA를 조금 이용하기 시작
+build.gradle에서 오른쪽 마우스로 import gradle project하니까 Auto Import가 작동하기 시작했다.
+
+[Working a Getting Started guide with IntelliJ IDEA](https://spring.io/guides/gs/intellij-idea/)
+
+---
+
+## Add Unit Tests
+
+You will want to add a test for the endpoint you added, and Spring Test already provides some machinery for that, and it’s easy to include in your project.
+
+Add this to your build file’s list of dependencies:
+
+```
+testCompile("org.springframework.boot:spring-boot-starter-test")`
+```
+
+If you are using Maven, add this to your list of dependencies:
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+</dependency>
+```
