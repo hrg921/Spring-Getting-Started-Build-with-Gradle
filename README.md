@@ -245,3 +245,7 @@ $ curl -X POST localhost:8080/actuator/shutdown
 Because we didn’t enable it, the request is blocked by the virtue of not existing.
 
 For more details about each of these REST points and how you can tune their settings with an `application.properties` file (in `src/main/resources`), you can read detailed [docs about the endpoints](https://docs.spring.io/spring-boot/docs/2.2.1.RELEASE/reference/htmlsingle/#production-ready-endpoints).
+
+## Summary
+
+Congratulations! You built a simple web application with Spring Boot and learned how it can ramp up your development pace. You also turned on some handy production services. This is only a small sampling of what Spring Boot can do. Checkout Spring Boot’s online docs if you want to dig deeper.
